@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="Styles/general.css" />
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/video.css" />
+    <link rel="stylesheet" href="Styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="sidebar">
+        <div class="sidebar-link">
+          <img
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/home.svg"
+          />
+          <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+          <img
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/explore.svg"
+          />
+          <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+          <img
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/subscriptions.svg"
+          />
+          <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+          <img
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/originals.svg"
+          />
+          <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+          <img
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/youtube-music.svg"
+          />
+          <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+          <img
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-16/icons/library.svg"
+          />
+          <div>Library</div>
+        </div>
+      </div>
+      <div class="left-section">
+        <img
+          class="hamburger"
+          src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/hamburger-menu.svg"
+        />
+        <img
+          class="logo"
+          src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/youtube-logo.svg"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="dash" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/search.svg"
+          />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img
+            class="voice-icon"
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/voice-search-icon.svg"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img
+            class="upload-icon"
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/upload.svg"
+          />
+          <div class="tooltip">Upload</div>
+        </div>
+        <img
+          class="YT-apps-icon"
+          src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/youtube-apps.svg"
+        />
+        <div class="notifications-container">
+          <img
+            class="notifications-icon"
+            src="https://raw.githubusercontent.com/SuperSimpleDev/html-css-course-2022/f16e92873fa7de49c7d0ac332b215ca66f08ce10/2-copy-of-code/lesson-13/icons/notifications.svg"
+          />
+          <div class="count">3</div>
+        </div>
+        <img
+          class="current-user-icon"
+          src="https://yt3.ggpht.com/jMjbs0pv2r-1d90YhvaokJ_F51bQm-ssr73c5AhvaVBRc784Xj-uz6sw0VBqlCmm__zYC23BCQ=s68-c-k-c0x00ffffff-no-rj"
+        />
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://i.ytimg.com/vi/Pl2V3mxIEpY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABLrMcybQ-up1sElCxn1ktyvoxGQ"
+          />
+          <div class="video-time">14:90</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel">
+            <img
+              class="profile"
+              src="https://yt3.ggpht.com/jMjbs0pv2r-1d90YhvaokJ_F51bQm-ssr73c5AhvaVBRc784Xj-uz6sw0VBqlCmm__zYC23BCQ=s68-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="info">
+            <p class="video-title">Talking about Tech and AI</p>
+            <p class="name">Marques Brownlee &#10003;</p>
+            <p class="stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://i.ytimg.com/vi/ai8tajGN7mo/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZdIjDVm9HxphboBpxKWL5OlCT3w"
+          />
+          <div class="video-time">5:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel">
+            <img
+              class="profile"
+              src="https://yt3.ggpht.com/v8Dw8m2PRs2klrGYa7cng5YLO4xUeNjtEy5FUTJyV5DUK3x-AVhn39NBsUBKyvWHOcfxZweC=s68-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="info">
+            <p class="video">Splatoon Gameplay</p>
+            <p class="name">DUDE &#10003;</p>
+            <p class="stats">150K views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://i.ytimg.com/vi/Pl2V3mxIEpY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABLrMcybQ-up1sElCxn1ktyvoxGQ"
+          />
+          <div class="video-time">12:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel">
+            <img
+              class="profile"
+              src="https://yt3.ggpht.com/jMjbs0pv2r-1d90YhvaokJ_F51bQm-ssr73c5AhvaVBRc784Xj-uz6sw0VBqlCmm__zYC23BCQ=s68-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="info">
+            <p class="video">Talking about Tech and AI</p>
+            <p class="name">Marques Brownlee &#10003;</p>
+            <p class="stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            class="thumbnail"
+            src="https://i.ytimg.com/vi/ai8tajGN7mo/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZdIjDVm9HxphboBpxKWL5OlCT3w"
+          />
+          <div class="video-time">40:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel">
+            <img
+              class="profile"
+              src="https://yt3.ggpht.com/v8Dw8m2PRs2klrGYa7cng5YLO4xUeNjtEy5FUTJyV5DUK3x-AVhn39NBsUBKyvWHOcfxZweC=s68-c-k-c0x00ffffff-no-rj"
+            />
+          </div>
+          <div class="info">
+            <p class="video">Splatoon Gameplay</p>
+            <p class="name">DUDE &#10003;</p>
+            <p class="stats">150K views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

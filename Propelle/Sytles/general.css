@@ -1,0 +1,18 @@
+body{
+background-color: ;
+}
+button{
+    background-color: blueviolet;
+    color:white;
+    border: none;
+    Border-radius: 25px:
+}
+.dash{
+background-color: white;
+border: 15px solid rgb(236, 236, 236);
+color: rgb(238, 238, 238);
+}
+.dash:hover{
+    background-color: azure;
+    
+}

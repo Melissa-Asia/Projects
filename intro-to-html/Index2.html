@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather project</title>
+    <style>
+      h1 {
+        color: blue;
+        text-align: center;
+        margin: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h2 {
+        text-align: center;
+        margin: 5px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: light;
+      }
+      h6 {
+        text-align: center;
+        font-family: monospace;
+      }
+      div {
+        display: block;
+        text-align: center;
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 0;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+      div:hover {
+        background: rgb(250, 248, 229);
+      }
+      body {
+        background: rgb(250, 249, 246);
+      }
+      p {
+        text-align: center;
+        font-size: 50px;
+        margin: 5px;
+      }
+      button {
+        display: block;
+        border: 2px solid blue;
+        border-color: blue;
+        padding: 10px 25px;
+        margin: 15px auto;
+        color: white;
+        border-radius: 50px 50px 50px 50px;
+        background: blue;
+        transition: all 200ms ease-in-out;
+        text-align: center;
+      }
+      button:hover {
+        background: rgb(216, 7, 77);
+        color: white;
+        cursor: pointer;
+        border-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p>&#9925;</p>
+    <h1>Currently 21°C in Tokyo</h1>
+    <h2>13°/<strong>23°</strong></h2>
+    <div class="Day">
+      <strong>&#127782; Tomorrow</strong>
+      <br />
+      <br />10°/<strong>22°</strong>
+    </div>
+    <div class="Day">
+      <strong>&#9925; Saturday</strong>
+      <br />
+      <br />15°/<strong>17°</strong>
+    </div>
+    <div class="Day">
+      <strong>&#127774; Sunday</strong>
+      <br />
+      <br />25°/<strong>28°</strong>
+    </div>
+    <button>Change city</button>
+    <h6>Coded by Melissa Asiamah</h6>
+    <script>
+      function change() {
+        let location = prompt("Where are you from?");
+        let degree = prompt("What is the temperature there?");
+        let h1 = document.querySelector("h1");
+        let emoji = document.querySelector("p");
+        if (degree >= 0) {
+          emoji.innerHTML = "🤗";
+          h1.innerHTML = "Currently " + degree + "°C in " + location + "!";
+        } else {
+          emoji.innerHTML = "🧣";
+          h1.innerHTML = "Currently " + degree + "°C in " + location + "!";
+        }
+      }
+      let changeCity = document.querySelector("button");
+      changeCity.addEventListener("click", change);
+    </script>
+  </body>
+</html>

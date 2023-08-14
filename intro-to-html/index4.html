@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <style>
+      body {
+        background: linear-gradient(45deg, #64e69a 15%, #e591de);
+      }
+      p {
+        text-align: center;
+        font-size: 50px;
+        margin: 0px;
+      }
+      h1 {
+        text-align: center;
+        color: blueviolet;
+        font-size: 80px;
+        font-weight: 60px;
+        margin: 2px auto;
+        font-family: fantasy;
+      }
+      h2 {
+        text-align: center;
+        font-size: 15px;
+        margin: 0px 0px 4px 0px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 0px 0px 35px 0px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: normal;
+      }
+      h6 {
+        text-align: center;
+        font-family: monospace;
+        font-size: 13px;
+        margin: 30px 0px 10px 0px;
+      }
+      ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 2px auto;
+      }
+      li {
+        display: inline;
+        margin: 0px 5px auto;
+        font-family: monospace;
+      }
+      img {
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+        border: 4px solid #e591de;
+        border-radius: 10px 10px 10px;
+      }
+      .Para {
+        text-align: center;
+        margin: 30px 300px 30px 300px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .Host {
+        border-radius: 150px 150px 150px 150px;
+        border-width: 2px;
+        background-color: rgb(240, 142, 96);
+        border: 2px solid rgb(240, 142, 96);
+        padding: 6px;
+        margin: 0px auto;
+        box-shadow: 2px 2px 30px rgb(170, 170, 238);
+      }
+      .Host:hover {
+        background-color: rgb(184, 255, 255);
+        border-color: rgb(184, 255, 255);
+        color: aliceblue;
+        cursor: pointer;
+      }
+      .email {
+        color: blueviolet;
+      }
+      .insta {
+        color: blueviolet;
+      }
+      Button {
+        font-size: 18px;
+        display: block;
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 10px;
+        margin: 0px auto;
+        line-height: 10px;
+        background-color: bisque;
+        color: black;
+        border: 5px solid rgb(170, 170, 238);
+        border-color: bisque;
+        border-radius: 25px 25px 25px 25px;
+        text-decoration: none;
+        box-shadow: 5px 5px 10px grey;
+        transition: all 200ms ease;
+      }
+      button:hover {
+        background-color: rgb(102, 102, 218);
+        border-color: rgb(102, 102, 218);
+        color: aliceblue;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <p>🕶</p>
+      <h1>Splatoon 3</h1>
+      <h2>Nintendo Switch</h2>
+      <h3>
+        We need a member for the <em><strong>BEST</strong></em> game ever!
+      </h3>
+      <span>
+        <img
+          src="https://media.cnn.com/api/v1/images/stellar/prod/switch-splatoon3-nd-20220810-title-direct-weapons-main-splat-roller-01.jpg?q=h_1080,w_1920,x_0,y_0"
+          width="400px"
+        />
+      </span>
+      <div class="Para">
+        Like its predecessors in the Splatoon series, Splatoon 3 is a
+        third-person shooter. Players choose to be either an Inkling or Octoling
+        as their player character. Both wield weaponry that uses colored ink as
+        ammunition. Weapons are diverse in ability and imagery, with most
+        resembling household objects.
+        <br />
+        <br />
+        This game has received a PEGI 7 because it features non-realistic
+        violence in a child-friendly setting or context and mild violence that
+        lacks any apparent harm or injury to fantasy or mythical beings and
+        creatures. Not suitable for persons under 7 years of age.
+        <br />
+        <br />
+        <hr />
+        <strong>Want to join our team?</strong> click the button below
+        <strong>(16+ only)</strong>
+      </div>
+      <button>Want to hear more? 🙌</button>
+      <h6>
+        Coded by
+        <a href="https://codepen.io/melissa-asia/pen/yLQPPRO"></a>
+        <em>Melissa Asiamah</em> 🧡
+      </h6>
+      <ul>
+        <li>
+          <strong class="email">Email:</strong
+          ><span> asiamah.m98@gmail.com</span>
+        </li>
+        <li>
+          <strong class="insta">Instagram:</strong><span> @melissa_asia</span>
+        </li>
+      </ul>
+    </section>
+    <script>
+      function more() {
+        let name = prompt("What is your first name?");
+        let age = prompt("What is your age?");
+        let email = prompt("What is your email?");
+        let h3 = document.querySelector("h3");
+        let emoji = document.querySelector("p");
+        let h1 = document.querySelector("h1");
+        if (age < 16) {
+          emoji.innerHTML = "😔";
+          h3.innerHTML = "Sorry " + name + ", you cannot join our team!";
+          h1.innerHTML = "Oh no !";
+        } else {
+          h3.innerHTML = "Thanks " + name + ", We'll be in touch!";
+          emoji.innerHTML = "🙌";
+          h1.innerHTML = "Yay ! !";
+        }
+        alert("Your email is " + email);
+      }
+      let hearMore = document.querySelector("button");
+      hearMore.addEventListener("click", more);
+    </script>
+  </body>
+</html>

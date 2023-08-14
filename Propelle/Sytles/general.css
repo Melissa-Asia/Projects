@@ -1,18 +1,42 @@
 body{
-background-color: ;
+background-color:rgb(232, 212, 252);
 }
 button{
-    background-color: blueviolet;
+    background-color: rgb(107, 20, 189);
     color:white;
     border: none;
-    Border-radius: 25px:
+    Border-radius: 25px;
+    font-size: 20px;
+}
+button:hover{
+    cursor:pointer;
+    background-color: rgb(126, 85, 165);
+    color:white;
+    border-color: blueviolet;
+}
+u{
+    font-size: 15px;
+    cursor: pointer;
+}
+h2{
+    font-size: 19px;
 }
 .dash{
 background-color: white;
-border: 15px solid rgb(236, 236, 236);
+border: 2px solid rgb(236, 236, 236);
 color: rgb(238, 238, 238);
+border-radius: 5px;
+font-size: 18px;
+margin-top: 0px;
+transition: 0.15ms;
 }
 .dash:hover{
     background-color: azure;
-    
+    cursor: pointer;
+    border-color:blueviolet;
+}
+.login-details{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }

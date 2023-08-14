@@ -1,6 +1,9 @@
 body{
 background-color:rgb(232, 212, 252);
 }
+header{
+    margin-bottom: 20px;
+}
 button{
     background-color: rgb(107, 20, 189);
     color:white;
@@ -13,6 +16,7 @@ button:hover{
     background-color: rgb(126, 85, 165);
     color:white;
     border-color: blueviolet;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.233);
 }
 u{
     font-size: 15px;
@@ -38,5 +42,6 @@ transition: 0.15ms;
 .login-details{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     flex-shrink: 0;
 }

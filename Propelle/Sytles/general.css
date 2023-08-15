@@ -1,5 +1,6 @@
 body{
 background-color:rgb(232, 212, 252);
+background: linear-gradient(90deg, rgb(232, 212, 252) 36%, rgba(250,245,217,1) 64%, rgba(250,238,143,1) 100%);
 }
 header{
     margin-bottom: 20px;
@@ -28,7 +29,7 @@ h2{
 .dash{
 background-color: white;
 border: 2px solid rgb(236, 236, 236);
-color: rgb(238, 238, 238);
+color: rgb(21, 2, 43);
 border-radius: 5px;
 font-size: 18px;
 margin-top: 0px;
@@ -36,7 +37,6 @@ transition: 0.15ms;
 }
 .dash:hover{
     background-color: azure;
-    cursor: pointer;
     border-color:blueviolet;
 }
 .login-details{

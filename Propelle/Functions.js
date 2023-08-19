@@ -11,3 +11,4 @@ h3.innerHTML =`Remember your password: ${password}!`;
 }
 let login = document.querySelector ("button");
 login.addEventListener("click", log);
+

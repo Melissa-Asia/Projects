@@ -20,7 +20,6 @@
         font-weight: bold;
         cursor: pointer;
       }
-
       .is-subscribed {
         background-color: rgb(226, 226, 226);
         color: black;
@@ -77,14 +76,14 @@
       }
 
       function subscribe() {
-        const buttonElement = document.querySelector(`.js-subscribe-button`);
+        const buttonElement = document.querySelector(".js-subscribe-button");
 
-        if (buttonElement.innerText === `Subscribe`) {
-          buttonElement.innerHTML = `Subscribed`;
-          buttonElement.classList.add(`is-subscribed`);
+        if (buttonElement.innerText === "Subscribe") {
+          buttonElement.innerHTML = "Subscribed";
+          buttonElement.classList.add("is-subscribed");
         } else {
-          buttonElement.innerHTML = `Subscribe`;
-          buttonElement.classList.remove(`is-subscribed`);
+          buttonElement.innerHTML = "Subscribe";
+          buttonElement.classList.remove("is-subscribed");
         }
       }
     </script>

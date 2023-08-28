@@ -17,18 +17,50 @@
 
       .move-icon{
         height: 50px;
+        padding: 20px
+      }
+      .move-button{
         border-radius: 50px;
+        background-color: transparent;
+        border: 2px solid white;
+        cursor: pointer;
+      }
+      .move-button:hover{
+      background-color: rgb(81, 172, 172);
+      border: 2px solid blueviolet;
+      }
+      .result{
+        font-size: 20px;
+        font-weight:bold;
+        margin: 50px 0px 0px 0px;
+      }
+      .played-moves{
+        height: 40px;
+      }
+      .score{
+        margin-top: 50px;
+      }
+      .reset-button{
+        background-color: white;
+        color:black;
+        border: none;
+        padding: 7px 15px;
+        font-size: 13px;
+        cursor:pointer;
       }
     </style>
   </head>
   <body>
     <p class="title">Rock Paper Scissors</p>
-    <button onclick="playGame(`Rock`);"><img src="rock-emoji.png" class="move-icon"></button>Rock</button>
-    <button onclick="playGame(`Paper`);"><img src="paper-emoji.png" class="move-icon"></button>Paper</button>
-    <button onclick="playGame(`Scissors`);"><img src="scissors-emoji.png" class="move-icon"></button>Scissors</button>
-    <p class="js-result"></p>
+    <button onclick="playGame(`Rock`);" class="move-button">
+      <img src="images/rock-emoji.png" class="move-icon"></button>Rock</button>
+    <button onclick="playGame(`Paper`);" class="move-button">
+      <img src="images/paper-emoji.png" class="move-icon"></button>Paper</button>
+    <button onclick="playGame(`Scissors`);" class="move-button">
+      <img src="images/scissors-emoji.png" class="move-icon"></button>Scissors</button>
+    <p class="js-result result"></p>
     <p class="js-moves"></p>
-    <p class="js-score"></p>
+    <p class="js-score score"></p>
     <button
       onclick="
         score.wins = 0,
@@ -37,7 +69,7 @@
         localStorage.removeItem(`score`);
         updateScoreElement();
         "
-    >
+        Class="reset-button">
       Reset Score
     </button>
 
@@ -105,9 +137,10 @@
 
         document.querySelector(`.js-result`).innerHTML = Result;
 
-        document.querySelector(
-          `js-moves`
-        ).innerHTML = `You ${playerMove} - ${computerMove} Computer`;
+        document.querySelector(`.js-moves`).innerHTML = `You
+    <img src="images/${playerMove}-emoji.png" class="played-moves">
+    <img src="images/${computerMove}-emoji.png" class="played-moves">
+    Computer`;
       }
       /*
                     alert(

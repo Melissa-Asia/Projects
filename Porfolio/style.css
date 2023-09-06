@@ -1,0 +1,17 @@
+header{
+    border: 3px solid grey;
+}
+
+.Project-1{
+    border: 3px solid blueviolet;
+}
+.Project-2{
+    border: 3px solid blue;
+}
+.dev-pic{
+    border: 3px solid pink;
+    border-radius: 50px;
+}
+.about-info{
+    border: 3px solid red;
+}

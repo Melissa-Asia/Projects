@@ -1,13 +1,29 @@
 header{
     border: 3px solid grey;
+    font-weight: bold;
+    color: rgb(88, 18, 129);
+    text-align:start;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content:end;
+    gap: 2em;
 }
 .dev-pic {
     border: 3px solid pink;
+    grid-area: 5/7/1/4;
 }
 .intro{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 3px solid yellow;
     padding: 3px;
+    display:grid;
+    margin-top: 100px;
+}
+.welcome{
+    z-index: 1;
+    grid-area: 1/3/1/2;
 }
 .Project-1{
     border: 3px solid blueviolet;

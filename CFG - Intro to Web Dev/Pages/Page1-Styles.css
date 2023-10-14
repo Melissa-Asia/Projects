@@ -2,11 +2,18 @@ body{
     background-color: rgb(113, 241, 196);
 }
 nav{
-    background-color: rgb(194, 192, 192);
+    background-color: rgb(4, 141, 111);
 }
 img{
     border-color: aqua;
 }
+a {
+    color: white;
+}
+h3{
+    color: white;
+}
 .Project-1{
     border-color: rgb(190, 190, 190);
 }
+

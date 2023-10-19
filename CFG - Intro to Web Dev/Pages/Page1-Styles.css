@@ -5,7 +5,9 @@ nav{
     background-color: rgb(4, 141, 111);
 }
 img{
-    border-color: aqua;
+    width: 20%;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
 }
 a {
     color: white;
@@ -13,7 +15,10 @@ a {
 h3{
     color: white;
 }
+footer{
+    margin-bottom: 30px;
+}
 .Project-1{
-    border-color: rgb(190, 190, 190);
+    border: 2px solid green;
 }
 

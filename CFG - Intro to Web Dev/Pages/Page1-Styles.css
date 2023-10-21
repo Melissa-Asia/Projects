@@ -1,6 +1,7 @@
 body{
     background-color: #994773;
     color:white;
+    z-index: 100;
 }
 nav{
     background-color: #522B5B;
@@ -28,6 +29,9 @@ p{
     width: 20%;
     border: 2px solid palevioletred;
     border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .Project-info{
     background-color: grey;
@@ -35,13 +39,14 @@ p{
     flex-direction: row;
     justify-content: center;
     position: absolute;
+    
 }
 .header {
     height: 70px;
     display: flex;
     flex-direction: row;
-        justify-content: space-between;
-        position: fixed;
+    justify-content: space-between;
+    position: fixed;
         top: 0;
         left: 0;
         right: 0;

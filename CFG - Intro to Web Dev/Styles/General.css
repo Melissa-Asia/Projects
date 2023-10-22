@@ -1,0 +1,16 @@
+body{
+    background-color: #994773;
+    color:white;
+    z-index: 100;
+}
+nav{
+    background-color: #522B5B;
+    font-size: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline yellow;
+}

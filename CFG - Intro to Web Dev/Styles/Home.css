@@ -1,35 +1,20 @@
-body{
-    background-color: #994773;
-    color:white;
-    z-index: 100;
-}
-nav{
-    background-color: #522B5B;
-    font-size: 20px;
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline yellow;
-}
-h3{
+h3 {
     color: white;
 }
-footer{
+
+footer {
     margin-bottom: 30px;
 }
-img{
+
+img {
     width: 500px;
 }
-Section{
-    
-}
-.Project-1{
+
+.Project-1 {
     border: 2px solid white;
     position: relative;
 }
+
 .dev-pic {
     width: 20%;
     border: 2px solid palevioletred;
@@ -39,22 +24,24 @@ Section{
     position: relative;
     left: 800px;
 }
-.Project-info{
+
+.Project-info {
     background-color: grey;
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    
+
 }
+
 .header {
     height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }

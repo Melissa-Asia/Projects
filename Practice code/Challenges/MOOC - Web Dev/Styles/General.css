@@ -60,6 +60,14 @@ img {
     border-radius: 10px 10px 10px;
 }
 
+nav{
+    background-color: black;
+    color: white;
+}
+nav:hover{
+ text-decoration: underline lime;
+}
+
 .Para {
     text-align: center;
     margin: 30px 300px 30px 300px;
@@ -91,7 +99,15 @@ img {
 .insta {
     color: blueviolet;
 }
-
+.table-1{
+    margin: 80px;
+}
+.stages-button{
+    margin: 30px;
+}
+th{
+    color:rgb(75, 24, 1);
+}
 Button {
     font-size: 18px;
     display: block;

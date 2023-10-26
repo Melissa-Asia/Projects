@@ -10,7 +10,7 @@ img {
     width: 500px;
 }
 
-.Project-1 {
+.Project-1 .Project-2{
     border: 2px solid white;
     position: relative;
 }
@@ -19,10 +19,8 @@ img {
     width: 20%;
     border: 2px solid palevioletred;
     border-radius: 50%;
-    object-position: -2cm;
     background-color: white;
     position: relative;
-    left: 800px;
 }
 
 .Project-info {

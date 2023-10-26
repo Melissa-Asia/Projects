@@ -9,22 +9,35 @@
     <link rel="stylesheet" href="/CFG - Intro to Web Dev/Styles/About.css"/>
     <link rel="stylesheet" href="/CFG - Intro to Web Dev/Styles/Projects.css"/>
     <link rel="stylesheet" href="/CFG - Intro to Web Dev/Styles/Contact.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
+    <!-- Navbar -->
     <nav>
       <a href="./Page1.html" target="_blank">Home</a>
       <a href="./Page1.html" target="_blank">About</a>
       <a href="./Page1.html" target="_blank">Projects</a>
       <a href="./Page2.html" target="_blank">Contact</a>
     </nav>
+    <!--Intro section-->
     <section>
-    <h1>Hello, I'm Melissa 💜</h1>
+    <div class="container">
+    <div class="row">
+      <div class=".col-xs-12 .col-md-8">
+        <h1>Hello, I'm Melissa 💜</h1>
     <h2>Welcome to my first HTML page!</h2>
     <p>I am a <em>front-end</em> web development enthusiast</p>
     <button>Contact me</button>
-    <div>
+    </div>
+    <div class=".col-xs-6 .col-md-4">
+        <div>
       <img class="dev-pic" src="./Photo.jpg" />
     </div>
+    </div>
+    </div>
+    <!--End of Intro section-->
+
+    <!--Skills section-->
     <h3>About me:</h3>
     <ul>
       <li>I am 25 Years old</li>
@@ -34,18 +47,28 @@
       <li>I love a good praise & worship session</li>
     </ul>
     </section>
-<Section class="Projects">
+    <!--End of skills section-->
+    
+    <!--Project 1-->
+  <Section class="Projects">
+  <div class="container">
+    <div class="row">
+    <div class=".col-xs-12 .col-md-8">
      <div>
         <div class="Project-1">
-          <h3>Female investment platform</h3>
-          <div class="Project-img"><img src="./Propelle.jpg" /></div>
-          <div class="Project-info">
-          <p>This project is</p>
-          </div>
-          <div class="prog-used-icons"><img src="" /></div>
+        <h3>Female investment platform</h3>
+        <div class="Project-img"><img src="./Propelle.jpg" /></div>
         </div>
+    <div class=".col-xs-6 .col-md-4"></div>
+        <div class="Project-info">
+        <p>This project is</p></div>
+        </div>
+        <div class="prog-used-icons"><img src="" /></div>
+        </div>
+
+      <!--Project 2-->
         <div>
-        <div class="Project-1">
+        <div class="Project-2">
           <h3>Splatoon Stats</h3>
           <div class="Project-img"><img src="./Splatoon.jpg" /></div>
           <div class="Project-info">
@@ -54,7 +77,10 @@
           <div class="prog-used-icons"><img src="" /></div>
         </div>
       </div>
+
+      <!--Footer section-->
 </Section>
     <footer>Made with Code First Girls 2023</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

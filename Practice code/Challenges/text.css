@@ -1,0 +1,42 @@
+  p {
+      font-family: arial;
+  }
+
+  .video-title {
+      font-size: 18px;
+      font-weight: bold;
+      width: 350px;
+      line-height: 24px;
+      margin: 6px;
+  }
+
+  .stats {
+      font-size: 14px;
+      color: rgb(68, 67, 67);
+      margin: 0px auto;
+  }
+
+  .name {
+      font-size: 14px;
+      color: rgb(68, 67, 67);
+      margin: 20px auto;
+  }
+
+  .extra {
+      font-size: 14px;
+      color: rgb(68, 67, 67);
+  }
+
+  .new {
+      background-color: rgb(226, 14, 14);
+      font-size: 15px;
+      text-align: center;
+      color: white;
+      margin: 10px 0px 15px 0px;
+      padding: 15px 0px 15px;
+      cursor: pointer;
+  }
+
+  span:hover {
+      text-decoration: underline;
+  }

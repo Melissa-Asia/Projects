@@ -60,12 +60,24 @@ img {
     border-radius: 10px 10px 10px;
 }
 
+th {
+    font-size: 25px;
+    color: rgb(8, 3, 1);
+}
+
 nav{
     background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+a{
+    margin-right: 30px;
+    font-size: 20px;
     color: white;
 }
-nav:hover{
- text-decoration: underline lime;
+a:hover{
+    color: #e591de;
+    text-decoration: underline lime;
 }
 
 .Para {
@@ -100,13 +112,13 @@ nav:hover{
     color: blueviolet;
 }
 .table-1{
-    margin: 80px;
+    margin: 45px;
 }
 .stages-button{
     margin: 30px;
 }
-th{
-    color:rgb(75, 24, 1);
+.table-title{
+    margin-top: 50px;
 }
 Button {
     font-size: 18px;

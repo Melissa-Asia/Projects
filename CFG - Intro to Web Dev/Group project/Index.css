@@ -51,7 +51,7 @@ li {
     font-family: monospace;
 }
 td{
-    margin: 300px;
+    padding: 30px; 
 }
 .home{
     margin-top: 50px;
